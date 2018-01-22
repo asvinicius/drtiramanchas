@@ -18,19 +18,19 @@ body {
 
  #wrapper {
     width: 100%;
-    background:#00bfff;
+    background:#202020;
 }
 
 #page-wrapper {
     padding: 15px 15px;
     min-height: 600px;
-    background:#00bfff;
+    background:#F3F3F3;
    
 }
 #page-inner {
     width:100%;
     margin:10px 20px 10px 0px;
-    background-color:#00bfff!important;
+    background-color:#fff!important;
     padding:10px;
     min-height:1200px;
 }
@@ -215,7 +215,7 @@ font-size: 30px;
 font-weight: 700;
 }
 .active-menu {
-    background-color:#00bfff!important;
+    background-color:#C90000!important;
 }
 
 .arrow {
@@ -301,7 +301,7 @@ font-weight: 700;
 }
 .navbar-side {
 	border:none;
-	background-color: #1E90FF;
+	background-color: #202020;
 	
 }
 .navbar-cls-top {
