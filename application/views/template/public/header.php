@@ -1,20 +1,44 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+   
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Free Bootstrap Admin Template : Binary Admin</title>
+    <title>Limpeza de Tapetes 30% desconto</title>
 	<!-- BOOTSTRAP STYLES-->
-    <link href="http://drtiramancha.com.br/assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/bootstrap.css " rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
-    <link href="http://drtiramancha.com.br/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.css " rel="stylesheet" />
         <!-- CUSTOM STYLES-->
-    <link href="http://drtiramancha.com.br/assets/css/custom.css" rel="stylesheet" />
+    <link href="assets/css/custom.css " rel="stylesheet" />
      <!-- GOOGLE FONTS-->
-   <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css"/>
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+   <style>
+.barra {
+    position:fixed;
+	margin-right:0px;
+	margin-top:0px;
+	display:inline-block;
+	float:both;
+	 z-index: 2;
+}
+</style>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+        document.getElementById("wrapper").className = "barra";
+    } else {
+        document.getElementById("wrapper").className = "";
+    }
+}
+</script>
+
 </head>
 <body>
-    <div id="wrapper">
+    <div id="wrapper" >
         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
