@@ -28,7 +28,7 @@
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
         document.getElementById("wrapper").className = "barra";
     } else {
         document.getElementById("wrapper").className = "";
