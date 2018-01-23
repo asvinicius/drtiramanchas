@@ -1,0 +1,19 @@
+$(window).bind('scroll', function() {
+			
+            if ($(this).scrollTop() > 100) { /* quando a página descer 100 pixels */
+	
+                $('div#suadiv').css({ /* a sua div */
+                    position: 'fixed', 
+                    top: '73px' /* vai ficar fixa a 73 pixels do topo */
+                });
+				
+
+            } else {
+	
+                $('div#suadiv').css({
+                    position: 'relative', 
+                    top: '0px'
+                });
+
+            }
+        });
