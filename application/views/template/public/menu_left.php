@@ -1,66 +1,35 @@
-
-                <nav class="navbar-default navbar-side" role="navigation">
-            <div class="sidebar-collapse">
-                <ul class="nav" id="main-menu">
-				<li class="text-center">
-                    <img src="assets/img/find_user.png" class="user-image img-responsive"/>
-					</li>
+<!-- /. NAV SIDE  -->
+	<nav class="navbar-side " >
+       <div class="sidebar-collapse ">
+          <ul class="nav " id="main-menu" >           
+					<li><a class="index.php" href="" title="Página inicial">Home</a></li>
+                    <li><a href="empresa.php" title="Empresa">Empresa</a></li>
+                    <li><a href="servico.php" title="Servicos">Serviços</a></li>
+	   		        <li><a href="tapete.php" title="Lavagem de tapetes">Lavagem de Tapetes</a></li>
+		            <li><a href="impermeabilizacao.php" title="Impermeabilização">Impermeabilização</a></li>
+	            	<li><a href="carpete.php" title="Lavagem de carpetes">Lavagem de carpetes</a></li>
+	            	<li><a href="restauracao.php" title="Restauração  de Tapetes">Restauração de Tapetes</a></li>
+	            	<li><a href="estofado.php" title="Lavagem de estofados">Lavagem de estofados</a></li>
+	            	<li><a href="lavanderia.php" title="Serviços de Lavanderia">Lavanderia</a></li>
+            
+                    <li><a href="cadastro.php" title="Cadastro">Cadastro</a></li>
+	   		        <li><a href="contato.php" title="Contato">Contato</a></li>
+		            <li><a href="noticia.php" title="Noticia">Noticias</a></li>
+	            	<li><a href="atendimento.php" title="atendimento">Atendimento</a></li>
+	            	<li><a href="franquia.php" title="Franquia">Franquia</a></li>
+	            	<li><a href="galeria.php" title="Galeria">Galeria</a></li>
+	            	<li><a href="premio.php" title="Premio">Premios</a></li>
+                    <li><a href="localizacao.php" title="Localizacao">Localização</a></li>
+	            	
 				
-					
-                    <li>
-                        <a class="active-menu"  href="index.html"><i class=""></i> Dashboard</a>
-                    </li>
-                      <li>
-                        <a  href="ui.html"><i class="fa fa-desktop fa-3x"></i> UI Elements</a>
-                    </li>
-                    <li>
-                        <a  href="tab-panel.html"><i class="fa fa-qrcode fa-3x"></i> Tabs & Panels</a>
-                    </li>
-						   <li  >
-                        <a  href="chart.html"><i class="fa fa-bar-chart-o fa-3x"></i> Morris Charts</a>
-                    </li>	
-                      <li  >
-                        <a  href="table.html"><i class="fa fa-table fa-3x"></i> Table Examples</a>
-                    </li>
-                    <li  >
-                        <a  href="form.html"><i class="fa fa-edit fa-3x"></i> Forms </a>
-                    </li>				
-					
-					                   
-                    <li>
-                        <a href="#"><i class="fa fa-sitemap fa-3x"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
-                            <li>
-                                <a href="#">Second Level Link</a>
-                            </li>
-                            <li>
-                                <a href="#">Second Level Link</a>
-                            </li>
-                            <li>
-                                <a href="#">Second Level Link<span class="fa arrow"></span></a>
-                                <ul class="nav nav-third-level">
-                                    <li>
-                                        <a href="#">Third Level Link</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Third Level Link</a>
-                                    </li>
-                                    <li>
-                                        <a href="#">Third Level Link</a>
-                                    </li>
-
-                                </ul>
+                             
                                
-                            </li>
+                           
                         </ul>
-                      </li>  
-                  <li  >
-                        <a class="active-menu"  href="blank.html"><i class="fa fa-square-o fa-3x"></i> Blank Page</a>
-                    </li>	
-                </ul>
+                    
+                  
                
             </div>
             
         </nav>  
         <!-- /. NAV SIDE  -->
- 
