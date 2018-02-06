@@ -1,8 +1,8 @@
        <div id="page-wrapper" >
             <div class="row">
                 <div class="col-md-12">
-                 <h2>Página Inicial</h2>   
-                    <h5>Esta é a página inicial do site. </h5>
+                 <h2>Página Contado</h2>   
+                    <h5>Esta é a página para contato do site. </h5>
 
                 </div>
             </div>
