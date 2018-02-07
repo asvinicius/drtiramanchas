@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct');
 
 // nessa linha abaixo declaramos a classe Contact extendendo do controlador padrao do codeigniter.
 // Com isso torna-se padrão que quando digitar a baseurl/contact, ele vai buscar um controlador com nome CONTACT
-    class Contact extends CI_Controller{
+    class Estofado extends CI_Controller{
         // definimos então a função INDEX.
         // quando digitar a baseurl/contact ele vai acessar o controlador e buscar por padrão a função INDEX
         // então é na função index que devemos fazer o load-view para a página padrão do controlador
